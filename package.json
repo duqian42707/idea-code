@@ -1,0 +1,33 @@
+{
+  "name": "idea-code",
+  "version": "1.0.0",
+  "description": "get idea code and auto copy",
+  "nodejs": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/duqian42707/idea-code.git"
+  },
+  "keywords": [
+    "idea"
+  ],
+  "author": "duqian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duqian42707/idea-code/issues"
+  },
+  "homepage": "https://github.com/duqian42707/idea-code#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "compressing": "^1.5.1",
+    "iconv-lite": "^0.6.2",
+    "request": "^2.88.2",
+    "rimraf": "^3.0.2",
+    "unzip": "^0.1.11",
+    "unzipper": "^0.10.11"
+  }
+}
